@@ -1,0 +1,133 @@
+
+#fondoNavegador{
+    background-color: aqua;
+    margin: 5px;
+    padding: auto;
+}
+
+#fondoPrincipal{
+    background-color: rgb(195, 195, 190);
+    margin: auto;
+    width: 95%;
+    height: 630px;
+}
+
+.header{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(159, 171, 182);
+    text-align: center;
+    margin: auto;
+}
+
+.headerArriba{
+    height: 22px;
+    width: 100%;
+    background-color: rgb(31, 84, 131);
+}
+
+.header .principio{
+    height: 190px;
+    width: 100%;
+    background-color: blue;
+}
+
+.header .principio .centroPrincipio{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 49%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.navegacionPrincipal{
+    background-color: brown;
+    width: 100%;
+    height: 22px;
+}
+
+.asideMain {
+    width: 100%;
+    height: 150px;
+    background-color: azure;
+    text-align: center; 
+}
+
+.asideMain .aside {
+    width: 29.2%;
+    height: 100%;
+    background-color: rgb(205, 162, 162);
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.asideMain .main {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(110, 126, 78);
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.asideMain .contenido {
+    width: 75%;
+    height: 75%;
+    margin: 20px; 
+    margin-left: 28px;
+    background-color: rgb(207, 208, 180);
+}
+
+.asideMain .article {
+    background-color: blanchedalmond;
+    width: 90%;
+    height: 15%;
+    margin: 10px auto; 
+    text-align: center;
+}
+
+
+.imagenes{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.imagenes .imagen{
+    width: 23%;
+    height: 200px;
+    display: inline-block;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(111, 36, 36);
+    display: inline-block;
+}
+
+.footer .content{
+    width: 30%;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10%;
+    text-align: center;
+    background-color: rgb(184, 138, 138);
+}
+
+@media screen and (max-width: 600px) {
+    .header .principio .centroPrincipio {
+        width: 100%; 
+    }
+
+    .asideMain .aside,
+    .asideMain .main {
+        width: 100%; /
+    }
+
+    .footer .content {
+        width: 100%; 
+        margin-left: 0;
+    }
+}
